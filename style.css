@@ -1,3 +1,141 @@
-h1{
-  background: red;
+body{
+  margin:0;
+  padding: 0;
+  background: linear-gradient(gray,#979CD5);
+  color:white;
 }
+
+h1{
+  color: #212FCA;
+  text-decoration:underline;
+  margin-left: 2em;
+}
+
+h2{
+  text-align: center;
+  color:lightgreen;
+  text-decoration:underline;
+}
+
+h3{
+  color:pink;
+  margin-left: 0.5em;
+}
+
+ p{
+  margin-left: 1em;
+}
+
+ul,li{
+  border:1px solid gray;
+  display:flex;
+  padding: 6px;
+  justify-content: space-around;
+  background:#B1B1B1;
+}
+
+li{
+  background:#C62FB7;
+  color:white;
+}
+
+img{
+  display: inline-block;
+  width:70%;
+  height: 36vh;
+  margin-left: 15%;
+  border-radius:50%;
+}
+
+@media only screen and (max-width: 980px) {
+  img{
+  display: inline-block;
+  width:40%;
+  height: 20vh;
+  margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img{
+  display: inline-block;
+  width:70%;
+  height: 36vh;
+  margin-left: 15%;
+  }
+}
+
+form{
+  width:80%;
+  border:1px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding:5px;
+  line-height: 2.5em;
+}
+
+@media only screen and (max-width: 980px) {
+  form {
+      width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+      width: 80%;
+  }
+}
+
+input#name,#number,#mailbox{
+  width:60%;
+}
+
+#name,#number,#mailbox,#password{
+  display: inline-block;
+  position:relative;
+}
+#name{
+  left:4.2em;
+}
+#number{
+  left:3.2em;
+}
+#mailbox{
+  left:0.5em;
+}
+#password{
+  width: 60%;
+  left:2.1em;
+}
+
+#Male{
+  display: inline-block;
+}
+
+#Female{
+  display: inline-block;
+  position: relative;
+  margin-left: 11.6em;
+}
+
+#btn{
+  margin-left:40%; 
+  border-radius: 20px;
+  border: none;
+  background:yellow;
+}
+
+footer{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide{
+  position:absolute;
+  width:50px;
+  height: 20px;
+  background: red;
+  visibility: hidden;
+}
+
